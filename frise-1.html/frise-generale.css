@@ -1,0 +1,218 @@
+@font-face {
+    font-family: bevan;
+    src: url(/assets/Bevan-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotomono;
+    src: url(/assets/RobotoMono-Medium.ttf);
+}
+
+body {
+    background-image: url(../assets/background.svg);
+}
+
+.images{
+    height: 280px;
+}
+
+.rectangle {
+    top: 80px;
+    height: 330px;
+    width: 90%;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.rectangle img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.rectangle .info {
+    float: left;
+    width: 60%;
+}
+
+.rectangle h2 {
+    font-family: bevan, sans-serif;
+    font-size: 28px;
+    margin-top: 0;
+    text-decoration:  underline;
+}
+
+.rectangle p {
+    font-family: robotomono, sans-serif;
+    font-size: 24px;
+}
+
+.date {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.lien{
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+}
+
+.lien-vers-frise2{
+    color: rgb(30, 30, 30);
+}
+
+.retour-accueil{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -100px;
+    padding-bottom: 50px;
+}
+
+.texte-retour{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1970px){
+    .images{
+        height: 220px;
+    }
+    .rectangle{
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 1670px){
+    .images{
+        height: 180px;
+    }
+    .rectangle{
+        height: 190px;
+    }
+    .rectangle h2{
+        font-size: 24px;
+    }
+    .rectangle p{
+        font-size: 18px;
+    }
+    .date {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .images{
+        height: 160px;
+    }
+    .rectangle{
+        height: 170px;
+    }
+    .rectangle h2{
+        font-size: 20px;
+    }
+    .rectangle p{
+        font-size: 14px;
+    }
+    .date {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    .images{
+        height: 140px;
+    }
+    .rectangle{
+        height: 150px;
+    }
+    .rectangle h2{
+        font-size: 20px;
+    }
+    .rectangle p{
+        font-size: 14px;
+    }
+    .date {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .images{
+        height: 120px;
+    }
+    .rectangle{
+        height: 130px;
+    }
+    .rectangle h2{
+        font-size: 20px;
+    }
+    .rectangle p{
+        font-size: 14px;
+    }
+    .date {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .images{
+        height: 100px;
+    }
+    .rectangle{
+        height: 110px;
+    }
+    .rectangle h2{
+        font-size: 18px;
+    }
+    .rectangle p{
+        font-size: 12px;
+    }
+    .date {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .images{
+        height: 80px;
+    }
+    .rectangle{
+        height: 90px;
+    }
+    .rectangle h2{
+        font-size: 16px;
+    }
+    .rectangle p{
+        font-size: 10px;
+    }
+    .date {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .images{
+        height: 60px;
+    }
+    .rectangle{
+        height: 70px;
+    }
+    .rectangle h2{
+        font-size: 14px;
+    }
+    .rectangle p{
+        font-size: 8px;
+    }
+    .date {
+        font-size: 14px;
+    }
+}
